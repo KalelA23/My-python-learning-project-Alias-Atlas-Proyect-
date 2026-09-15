@@ -3,7 +3,7 @@ saldo = 0
 deudaspor = []
 
 while True:
-    opcc = input("Bienvenido al sistema de cajero automatico, para ver su saldo marque 1, para retirar dinero marque 2, para depositar dinero marque 3, para consultar deudas marque 4, para agregar deudas marque 5, para eliminar deudas marque 6, para salir marque 7: ")
+    opcc = int(input("Bienvenido al sistema de cajero automatico, para ver su saldo marque 1, para retirar dinero marque 2, para depositar dinero marque 3, para consultar deudas marque 4, para agregar deudas marque 5, para eliminar deudas marque 6, para salir marque 7: "))
 
     if opcc == "1":
         print("Su saldo es de", saldo, "$")
